@@ -1,8 +1,6 @@
 <?php 
     require 'function.php';
     
-    $perhitungan = query("SELECT nilai, hasil FROM hitung");
-
     if(isset($_POST["hitung"])) {
         if (tambah($_POST) === true) {
             exit;
